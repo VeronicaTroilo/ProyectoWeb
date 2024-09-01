@@ -1,0 +1,65 @@
+nav{ 
+    border: 2px solid rgb(12, 12, 12);
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: medium;
+}
+.clasemenu {
+    background-color: #5b9cd2;
+    color:#453e5a ;
+    font-size:small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{ 
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+
+}
+.claseitem{
+    flex-direction: row; 
+    color: rgb(68, 114, 114);}
+
+
+.claseformulario {
+    background-color: #070707;
+   
+    border-bottom: 2px solid rgb(113, 76, 112);
+    color:rgb(163, 118, 173);
+    font-size:large;
+    font-family:helvetica, sans-serif ;
+
+}
+input { background: transparent;
+        color: white}
+
+button {color: white;
+        background-color: rgb(113, 76, 112);
+        font-size: medium;}
+
+
+footer{
+    
+    color: white;
+    background: black;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: x-small;
+  
+    
+}
+
+.imagenfooter{
+    
+    max-height: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+       
+}
