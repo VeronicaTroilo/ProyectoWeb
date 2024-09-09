@@ -1,3 +1,12 @@
+*{    
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
 nav{ 
     border: 2px solid rgb(12, 12, 12);
     padding: 10px;
@@ -12,53 +21,88 @@ nav{
     font-size:small;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-img{ 
+.imagenlogo{ 
     width: 80px;
     height: 80px;
     border-radius: 100%;}
 
+.nosotros{
+    width: 100%;
+    padding: 10px;
+    background-color: #747375f7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
-img{ 
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
+.imagennosotros{
+    width: 100%;
 }
+      
+.titulonosotros{
+    padding: 5px;
+    
+    font-size: medium;
+    color: #103e64;
+    text-align: center;
+}
+.parrafo1{
+    padding: 10px ;
+    font-size: small;
+    color: #0a3b66;
+    text-align: center;
+
+}
+.parrafo2{
+   
+    font-size: x-small;
+    color: #030759;
+    text-align: center;
+}
+
+
+    
 .galeria{
+    
+    padding: 10px;
     border: 2px solid rgb(7, 7, 7);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
     flex-wrap: wrap;
 
 }
-.imagengaleria{ 
+.imagenesgaleria{ 
+    width: 80%;
     border: 2px solid white;
     padding: 8px;
     display: flex;
+    flex-direction: row;
     gap:10px;
-    flex-wrap: wrap;
-    justify-content: center;
+    /*flex-wrap: wrap;*/
+    
 }
 
 
 
-footer{
-    
+
+footer{    
     color: white;
     background: black;
+    width: 100%;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     font-size: x-small;
-  
+}
+.listafooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    
+    gap: 20px;
+    
     
 }
-
-.imagenfooter{
-    
+.iconcontacto{   
     max-height: 20px;
-    object-fit: cover;
-    border-radius: 5px;
-       
+    display: flex;
+    flex-direction: column;
+      
 }

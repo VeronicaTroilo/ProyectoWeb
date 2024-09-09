@@ -15,6 +15,7 @@ nav{
 }
 .clasemenu {
     background-color: #5b9cd2;
+    width: 100%;
     color:#453e5a ;
     font-size:small;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,10 +31,6 @@ nav{
     height: 60px;
     border-radius: 100%;
 }
-
-
-
-
 
 
 .contenedorservicios{
@@ -54,7 +51,7 @@ nav{
     font-size: small;
     border-radius: 10px;  
     text-align: center;
-    
+  
     
 }
 
@@ -88,22 +85,25 @@ nav{
 
 
 footer{
-    
     color: white;
     background: black;
+    width: 100%;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     font-size: x-small;
-  
-    
 }
 
-.imagenfooter{
+.listafooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
     
+}
+.iconcontacto{
     max-height: 20px;
-    object-fit: cover;
-    border-radius: 5px;
-       
+    display: flex;
+    flex-direction: column;
 }
 
 
