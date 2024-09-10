@@ -6,7 +6,8 @@
     text-decoration: none;
 }
     
-nav{ 
+nav{ background-color: gray;
+    
     border: 1px solid rgb(12, 12, 12);
     padding: 5px;
     gap: 30px;
@@ -23,7 +24,12 @@ nav{
 }
 .claseitem{
     flex-direction: row;
-    color: rgb(68, 114, 114);
+    gap: 10px;
+    color: rgb(13, 47, 115);}
+
+.claseitem:hover{
+        
+        color: rgb(178, 41, 17);
     
 }  
 .imagenlogo{ 
@@ -44,15 +50,14 @@ nav{
 
 
 .tituloservicio{
-    display: grid;
+    
     background-color: black;
     color: white;
     padding: 5px;
     font-size: small;
     border-radius: 10px;  
     text-align: center;
-  
-    
+ 
 }
 
 
@@ -62,28 +67,47 @@ nav{
     padding: 20px;
     border: 1px solid grey;
     border-radius: 10px;
+    align-content: center;
+
+display: grid;
+grid-column: 1fr 1fr;
+gap: 5px;
+
+
 }
 
 .titulotarjeta{
     font-size: 25px;
+    padding:5px;
     text-align: center;
-    font-size: medium;    
+    font-size: medium; 
+    grid-column: span 2;
+    
+    
 }
 
 .descripcionservicio{
     font-size: 18px;
     text-align: center;
     font-size: small;
+    grid-column: span 2;
+  
+    
 }
+
 
 .imagenservicio{
     width: 100%;
     max-height: 200px;
     object-fit: cover;
     border-radius: opx;
-}
-
-
+    
+   
+}  
+.imagenservicio:hover{
+    scale: 1.2;
+   
+}  
 footer{
     color: white;
     background: black;

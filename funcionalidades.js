@@ -1,4 +1,4 @@
 
-alert("Bienvenido a PhotoWeb")
 let ingresadoPrompt = prompt("Ingresa tu nombre:")
 
+alert("Bienvenido  " + ingresadoPrompt )
