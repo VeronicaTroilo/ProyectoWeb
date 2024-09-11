@@ -39,20 +39,20 @@ nav{
 .titulonosotros{
     padding: 5px;
     
-    font-size: medium;
+    font-size: x-large;
     color: #103e64;
     text-align: center;
 }
 .parrafo1{
     padding: 10px ;
-    font-size: small;
+    font-size: x-large;
     color: #0a3b66;
     text-align: center;
 
 }
 .parrafo2{
    
-    font-size: x-small;
+    font-size: large;
     color: #030759;
     text-align: center;
 }
@@ -100,9 +100,9 @@ footer{
     
     
 }
-.iconcontacto{   
-    max-height: 20px;
+.iconcontacto{
+    max-height: 30px;
     display: flex;
     flex-direction: column;
-      
+    padding: 3px;
 }

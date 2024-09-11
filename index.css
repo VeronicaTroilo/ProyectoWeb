@@ -6,13 +6,18 @@
     text-decoration: none;
 }
     
-nav{ background-color: gray;
-    
+nav{     
     border: 1px solid rgb(12, 12, 12);
     padding: 5px;
     gap: 30px;
     align-items: center;
-    font-size: medium;
+    
+}
+.listanav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
 }
 .clasemenu {
     background-color: #5b9cd2;
@@ -53,7 +58,7 @@ nav{ background-color: gray;
     
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 30px;
     font-size: small;
     border-radius: 10px;  
     text-align: center;
@@ -69,18 +74,18 @@ nav{ background-color: gray;
     border-radius: 10px;
     align-content: center;
 
-display: grid;
-grid-column: 1fr 1fr;
-gap: 5px;
+    display: grid;
+    grid-column: 1fr 1fr;
+    gap: 5px;
 
 
 }
 
 .titulotarjeta{
     font-size: 25px;
-    padding:5px;
+    padding:10px;
     text-align: center;
-    font-size: medium; 
+    font-size: large; 
     grid-column: span 2;
     
     
@@ -89,9 +94,9 @@ gap: 5px;
 .descripcionservicio{
     font-size: 18px;
     text-align: center;
-    font-size: small;
+    font-size: medium;
     grid-column: span 2;
-  
+    padding:10px;
     
 }
 
@@ -122,12 +127,13 @@ footer{
     display: flex;
     flex-direction: row; 
     gap: 20px;
-    
+       
 }
 .iconcontacto{
-    max-height: 20px;
+    max-height: 30px;
     display: flex;
     flex-direction: column;
+    padding: 3px;
 }
 
 

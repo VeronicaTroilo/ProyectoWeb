@@ -32,30 +32,43 @@ nav{
 
 .claseformulario {
     background-color: #8ccbe8;
-    padding: 20px;
-    color:rgb(97, 70, 222);
+    background-image: url(../imagenes/fondoform.jpeg);
+    background-size:100% ;
+    padding: 30px;
+    color:rgb(40, 13, 164);
     font-size:small;
     font-family:helvetica, sans-serif ;
 
 }
 input { 
-        background : transparent;
+        /*background : transparent;*/
         border-bottom: 2px solid white;
-        color: white}
+        color: rgb(12, 12, 12);
+        border-radius: 4px;
+    }
 
+.input{
+    width: 250px;
+    height: 50px;
+    
+}
 .botones {
    
         display: flex;
         padding: 20px;
         gap: 100px;
+        
               
     }
 
 .boton{
     background-color: rgb(53, 126, 150);
+    
     color: rgb(8, 8, 8);
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    padding: 10px;
     
 }
 
@@ -76,7 +89,8 @@ footer{
     gap: 20px;
 }
 .iconcontacto{
-    max-height: 20px;
+    max-height: 30px;
     display: flex;
     flex-direction: column;
+    padding: 3px;
 }
